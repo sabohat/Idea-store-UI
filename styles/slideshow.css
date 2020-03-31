@@ -4,48 +4,50 @@
 }
 
 .slides-container {
-    width: 910px;
+    width: 400px;
     border: 5px solid transparent;
-    margin: 0 auto 100px;
-    overflow: hidden;
+    margin: 0 auto 50px;  
     position: relative;
+    overflow: hidden;
 }
 .slides {
-    width: 700px;
+    width: 400px;
+    height: 400px;
     display: flex;
 }
 .slides img {
-    width: 900px;
+    width: 400px;
 }
 /*Buttons*/
 #previousB {
     position: absolute;
-    top: 450px;
+    top: 170px;
     left: 25px;
     
 }
 #nextB {
     position: absolute;
-    top: 450px;
+    top: 170px;
     right: 25px;
     
 }
 
 
 .fa-angle-left {
-    width: 40px;
-    height:40px;
+    transform: scale(3);
+    width: 15px;
+    height: 15px;
     background-color:transparent;
     border: 1px solid white;
     border-radius: 50%;
     color: white;
 }
 .fa-angle-right {
-    width: 40px;
-    height:40px;
+    transform: scale(3);
+    width: 15px;
+    height: 15px;
     background-color:transparent;
     border: 1px solid white;
     border-radius: 50%;
     color: rgb(255, 255, 255);
-    
 }

@@ -1,0 +1,54 @@
+/* Стили кнопки */
+
+.close_button {
+	position: relative;
+	z-index: 2;
+	left: -20px;
+	margin-right: -20px;
+	top: 3px;
+	float: left;
+	visibility: hidden;
+}
+
+.gallery_block {
+	text-align: center;
+	width: 520px;
+}
+
+.img_gallery {
+	text-align: center;
+	float: left;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #c4ced2;
+	margin: 2px;
+}
+.img_gallery:hover {
+	background:#ffffff;
+	cursor:pointer;	
+	border: 1px solid darkblue;	
+}
+.img_gallery img {
+	display:inline-block;
+	vertical-align:middle;
+	max-width: 60px;
+	max-height: 60px;
+	margin: auto ;
+}
+.helper {
+    display:inline-block;
+    vertical-align:middle;
+    height:100%;
+    width:0px;
+}
+.BackToTop {
+    display: none;
+    opacity: 1;
+    position: fixed;
+    z-index: 999;
+}
+
+.selected_file{
+	background:#ffffff;	
+	border: 1px solid darkblue;		
+}

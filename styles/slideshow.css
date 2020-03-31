@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.slides-container {
+    width: 910px;
+    border: 5px solid transparent;
+    margin: 0 auto 100px;
+    overflow: hidden;
+    position: relative;
+}
+.slides {
+    width: 700px;
+    display: flex;
+}
+.slides img {
+    width: 900px;
+}
+/*Buttons*/
+#previousB {
+    position: absolute;
+    top: 450px;
+    left: 25px;
+    
+}
+#nextB {
+    position: absolute;
+    top: 450px;
+    right: 25px;
+    
+}
+
+
+.fa-angle-left {
+    width: 40px;
+    height:40px;
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+}
+.fa-angle-right {
+    width: 40px;
+    height:40px;
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    
+}
